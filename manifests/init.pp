@@ -38,7 +38,7 @@ class go(
   repository { $chgo_root:
     ensure => $chgo_version,
     force  => true,
-    source => 'wfarr/chgo',
+    source => 'msturm/chgo',
     user   => $chgo_user,
   }
 
